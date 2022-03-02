@@ -8,7 +8,7 @@
 
 ### Run  
   #### rodar container com a imagem gerada
-  docker run --rm --name teste-php-swoole IMAGE_NAME
+  docker run --rm --name teste-php-swoole -p 9501:9501 IMAGE_NAME
 
 ### Test 
   #### abrir navegar e acessar:
